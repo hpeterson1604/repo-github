@@ -4,14 +4,14 @@
  * @author Igor
  * @version 27.03.2022 edited
  */
-class Traning {
+class HomeWorkApp {
     
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
         printColor();
         compareNumbers();
-        }
+    }
     
     static void printThreeWords() {
         System.out.println("Orange");
@@ -26,20 +26,20 @@ class Traning {
     }
     
     static void printColor() {
-        int value = 1;
+        int value = 77;
         if (value <= 0) {
             System.out.println("Red");
         } else if (value <= 100) {
-            System.out.println("Yellow");
+            System.out.println("Yllow");
         } else {
             System.out.println("Green");
         }
     }
-     
+        
     static void compareNumbers() {
         int a = 2;
         int b = 3;
         System.out.println(a >= b? "a> = b" : "a < b");
-        }
     }
+    
 }
