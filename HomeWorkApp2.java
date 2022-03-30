@@ -18,7 +18,7 @@ class HomeWorkApp2 {
     }
     
     static String isPositOrNegat(int x) {
-        return x >= 0? "x is positive" : "x is negative";
+        return x < 0? "x is negative" : "x is positive";
     }
     
     static boolean isNumberPosOrNeg(int numb) {
